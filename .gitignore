@@ -1,0 +1,51 @@
+# -----------------
+# 1. Python & Backend
+# -----------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+venv/
+env/
+.env
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# -----------------
+# 2. Node & Frontend
+# -----------------
+node_modules/
+dist/
+build/
+.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -----------------
+# 3. Databases & Docker
+# -----------------
+storage_vault/
+*.db
+*.sqlite3
+pg_data/
+qdrant_data/
+minio_data/
+redis_data/
+
+# -----------------
+# 4. AI Models & Weights
+# -----------------
+*.safetensors
+*.bin
+*.pt
+*.onnx
+*.gguf
+
+# -----------------
+# 5. OS Files
+# -----------------
+.DS_Store
+Thumbs.db
+*.log

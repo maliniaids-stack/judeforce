@@ -1,0 +1,34 @@
+/* PRISM AI Visual Design System Theme Tokens */
+
+:root {
+  /* Page & Layout Background Colors */
+  --bg-base: #0A0F2C; /* Deep navy, page background */
+  --bg-tile-light: #131A3D; /* Slightly lighter tile shade for texture variation */
+  --bg-tile-highlight: #1C2554; /* Highlighted/spotlight tile shade */
+  --card-bg: #10152E; /* Step panel background, slightly lifted off page background */
+  --card-border: rgba(255, 255, 255, 0.08);
+
+  /* Accents */
+  --accent-orange: #E8622C; /* Primary CTA, active states */
+  --accent-orange-hover: #F5793D;
+  --accent-purple: #7C3AED; /* Gradient logo mark, secondary accent */
+  --accent-cyan: #22D3EE; /* Top border gradient, secondary accent */
+
+  /* Text Colors */
+  --text-primary: #F5F6FA;
+  --text-secondary: #9CA3C4;
+  --text-muted: #5A6488;
+  --success-green: #22C55E; /* Local Offline Mode badge */
+
+  /* Radii */
+  --radius-card: 16px;
+  --radius-input: 12px;
+  --radius-pill: 999px;
+
+  /* Shadows & Gradients */
+  --shadow-card: 0 8px 32px rgba(0, 0, 0, 0.4);
+  --shadow-glow-orange: 0 4px 20px rgba(232, 98, 44, 0.35);
+  --grad-accent: linear-gradient(135deg, var(--accent-purple) 0%, var(--accent-orange) 100%);
+  --grad-top-border: linear-gradient(90deg, var(--accent-purple) 0%, var(--accent-cyan) 100%);
+  --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
