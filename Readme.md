@@ -42,9 +42,25 @@
 ## 📸 Interface Preview
 
 <div align="center">
-  <img src="Source.png" alt="Prism AI Interface" width="800"/>
+  <h3>Step 1: Prompt Input</h3>
+  <img src="6.Output_Screenshots/1.step1-prompt.png" alt="Step 1: Prompt" width="800"/>
   <br/>
-  <em>Prism AI's unified dashboard for prompt generation, file uploading, and real-time generation tracking.</em>
+  
+  <h3>Step 2: Attach Source</h3>
+  <img src="6.Output_Screenshots/2.Attach%20source.png" alt="Step 2: Attach Source" width="800"/>
+  <br/>
+  
+  <h3>Step 3: Select Parameters</h3>
+  <img src="6.Output_Screenshots/3.select%20paramters.png" alt="Step 3: Select Parameters" width="800"/>
+  <br/>
+  
+  <h3>Step 4: Output Screen</h3>
+  <img src="6.Output_Screenshots/4.output%20screen.png" alt="Step 4: Output Screen" width="800"/>
+  <br/>
+
+  <h3>Step 5: Template Given & Generated Hindi Output</h3>
+  <img src="6.Output_Screenshots/5.template%20given%20and%20generated%20hindi%20output.png" alt="Step 5: Template and Hindi Output" width="800"/>
+  <br/>
 </div>
 
 ---
@@ -156,6 +172,9 @@ Provides a technical deep-dive into the **3-Database Architecture** and pipeline
 
 If you are evaluating or presenting PRISM AI, we recommend these core workflows:
 
+> **Note:** For Usage & Workflows (Demo Script), please refer to Deliverables _1 and _2 in the [Deliverables Folder](https://drive.google.com/drive/folders/1bYAviUDEeNcjeAA7q7imli0QbwGVppLh?usp=sharing). 
+> You can find the sample data required for these workflows in the [Sample Data Folder](https://drive.google.com/drive/folders/1kzZFQQDfZ5_JhJ6gS7EbwuFxFGssrpVM?usp=sharing).
+
 - 🎬 **TEXT → VIDEO SCRIPT**
   - **Topic:** "Cybersecurity's Need in Today's World"
   - **Result:** Generates a 2-minute educational video script, voiceover narration, timing breakdowns, and visual scene cues.
@@ -190,7 +209,10 @@ JudeForce-prism ai/
 ├── 2. Architecture_Doc/          # Architectural specs & technical design docs
 ├── 3. Demo_Video/                # Demo video recording assets
 ├── 4. Deliverables for Evaluation/ # Evaluation artifacts & submission files
-└── 5. Technical_PPT/             # Technical presentation decks
+├── 5. Technical_PPT/             # Technical presentation decks
+├── 6.Output_Screenshots/         # Application workflow screenshots
+├── 7.basemodel_finetuning.ipynb - Colab.pdf # Documentation for base model finetuning
+└── 8.base model _ dataset_adapters/ # Model adapters and dataset resources
 ```
 
 ---
